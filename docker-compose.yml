@@ -1,0 +1,16 @@
+jigsaw:
+  build: .
+  ports:
+    - 9527:9527
+  entrypoint:
+    - java
+    - -Dserver.port=9527
+    - -Dmongo.host=192.168.99.100
+    - -Dmongo.database=thoughtworks
+    - -jar
+    - /app.jar
+  links:
+    - mongodb
+
+mongodb:
+ image: mongo
