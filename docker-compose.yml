@@ -5,8 +5,7 @@ jigsaw:
   entrypoint:
     - java
     - -Dserver.port=9527
-    - -Dmongo.host=192.168.99.100
-    - -Dmongo.database=thoughtworks
+    - -Dspring.data.mongodb.uri=mongodb://mongodb/thoughtworks
     - -jar
     - /app.jar
   links:
