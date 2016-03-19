@@ -1,0 +1,447 @@
+{
+  "_id" : ObjectId("55efd19123588e5686f054d2"),
+  "skills" : [
+    {
+      "name" : "AWS",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Build Pipelines",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "Chef"
+    },
+    {
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "CI",
+      "rating" : 4
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "Couch DB"
+    },
+    {
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "CSS",
+      "rating" : 4
+    },
+    {
+      "name" : "CSS3",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Hadoop",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Hive",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "HTML"
+    },
+    {
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "HTML5",
+      "rating" : 4
+    },
+    {
+      "name" : "Java",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Javascript",
+      "rating" : 5,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Javascript visualization libraries (D3.js)",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Machine Learning",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Mobile Web",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Mongo",
+      "rating" : 2,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "MySQL",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Oracle",
+      "rating" : 2,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "Postgres"
+    },
+    {
+      "name" : "Processing",
+      "rating" : 2,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Python",
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "Ruby",
+      "rating" : 4
+    },
+    {
+      "rating" : 4,
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "SASS/SCSS"
+    },
+    {
+      "group" : {
+        "name" : "Technical"
+      },
+      "name" : "Shell",
+      "rating" : 4
+    },
+    {
+      "name" : "SQL",
+      "rating" : 3,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "name" : "Unix/Linux",
+      "rating" : 5,
+      "group" : {
+        "name" : "Technical"
+      }
+    },
+    {
+      "group" : {
+        "name" : "Testing"
+      },
+      "name" : "Capybara",
+      "rating" : 4
+    },
+    {
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      },
+      "name" : "Cucumber"
+    },
+    {
+      "name" : "Java application development",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Java test automation",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "rating" : 5,
+      "group" : {
+        "name" : "Testing"
+      },
+      "name" : "JavaScript application development"
+    },
+    {
+      "name" : "Jenkins",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Load testing",
+      "rating" : 3,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Performance testing",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Ruby application development",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "group" : {
+        "name" : "Testing"
+      },
+      "name" : "Ruby on Rails",
+      "rating" : 3
+    },
+    {
+      "name" : "Ruby test automation",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Selenium-webdriver",
+      "rating" : 4,
+      "group" : {
+        "name" : "Testing"
+      }
+    },
+    {
+      "name" : "Communication",
+      "rating" : 4,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Consulting"
+      },
+      "name" : "Facilitation"
+    },
+    {
+      "name" : "Influence",
+      "rating" : 3,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "name" : "Innovating",
+      "rating" : 4,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Consulting"
+      },
+      "name" : "Negotiation"
+    },
+    {
+      "name" : "Planning",
+      "rating" : 3,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "group" : {
+        "name" : "Consulting"
+      },
+      "name" : "Presenting",
+      "rating" : 4
+    },
+    {
+      "rating" : 4,
+      "group" : {
+        "name" : "Consulting"
+      },
+      "name" : "Problem solving"
+    },
+    {
+      "name" : "Questioning",
+      "rating" : 3,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "name" : "System thinking",
+      "rating" : 4,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "name" : "Teaching",
+      "rating" : 4,
+      "group" : {
+        "name" : "Consulting"
+      }
+    },
+    {
+      "name" : "Real Estate & Construction",
+      "rating" : 3,
+      "group" : {
+        "name" : "Domain"
+      }
+    },
+    {
+      "name" : "Software & Internet",
+      "rating" : 3,
+      "group" : {
+        "name" : "Domain"
+      }
+    },
+    {
+      "name" : "Telecommunications",
+      "rating" : 3,
+      "group" : {
+        "name" : "Domain"
+      }
+    },
+    {
+      "group" : {
+        "name" : "BA & XD"
+      },
+      "name" : "Analytics",
+      "rating" : 3
+    },
+    {
+      "name" : "Content Strategy",
+      "rating" : 3,
+      "group" : {
+        "name" : "BA & XD"
+      }
+    },
+    {
+      "name" : "Interaction Design",
+      "rating" : 3,
+      "group" : {
+        "name" : "BA & XD"
+      }
+    },
+    {
+      "name" : "UI Development",
+      "rating" : 4,
+      "group" : {
+        "name" : "BA & XD"
+      }
+    },
+    {
+      "name" : "Visual Design",
+      "rating" : 3,
+      "group" : {
+        "name" : "BA & XD"
+      }
+    },
+    {
+      "name" : "Delivery Principal",
+      "rating" : 3,
+      "group" : {
+        "name" : "Management & Planning"
+      }
+    },
+    {
+      "name" : "Feedback & Coaching",
+      "rating" : 4,
+      "group" : {
+        "name" : "Management & Planning"
+      }
+    },
+    {
+      "rating" : 3,
+      "group" : {
+        "name" : "Management & Planning"
+      },
+      "name" : "Iteration Management"
+    },
+    {
+      "name" : "English",
+      "rating" : 4,
+      "group" : {
+        "name" : "Language"
+      }
+    },
+    {
+      "name" : "Mandarin",
+      "rating" : 5,
+      "group" : {
+        "name" : "Language"
+      }
+    }
+  ],
+  "employeeId" : "14323"
+}
