@@ -1,7 +1,6 @@
 package com.thoughtworks.microservice.demo.controllers;
 
 import com.thoughtworks.microservice.demo.models.Staff;
-import com.thoughtworks.microservice.demo.repos.AdStaffRepository;
 import com.thoughtworks.microservice.demo.repos.StaffRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -16,8 +15,6 @@ import java.util.List;
 public class StaffController {
     @Autowired
     private StaffRepository staffRepository;
-    @Autowired
-    private AdStaffRepository adStaffRepository;
 
     @RequestMapping(method = RequestMethod.GET)
     public List fetchAll(@RequestParam(value = "page", defaultValue = "0", required = false) int page,
@@ -25,7 +22,7 @@ public class StaffController {
                          @RequestParam(value = "order", defaultValue = "ASC", required = false) Sort.Direction direction,
                          @RequestParam(value = "sort", defaultValue = "loginName", required = false) String loginName) {
 
-        Page result = adStaffRepository.findAll(new PageRequest(page, count, new Sort(direction, loginName)));
+        Page result = staffRepository.findAll(new PageRequest(page, count, new Sort(direction, loginName)));
         return result.getContent();
     }
 
