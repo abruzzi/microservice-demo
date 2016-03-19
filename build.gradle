@@ -21,3 +21,8 @@ dependencies {
     compile 'org.springframework.data:spring-data-mongodb:1.8.4.RELEASE'
     testCompile 'junit:junit:4.12'
 }
+
+jar {
+    baseName = rootProject.name
+    version =  '0.1.0'
+}
