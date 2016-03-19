@@ -1,0 +1,36 @@
+{
+  "id": "55efa44b23588e5686f04bef",
+  "travelPreferences": {
+    "international": false,
+    "domestic": false,
+    "travelDetails": ""
+  },
+  "department": {
+    "name": "Professional Services"
+  },
+  "grade": {
+    "name": "Sr Con"
+  },
+  "role": {
+    "name": "Dev"
+  },
+  "picture": {
+    "url": "https://jigsaw.thoughtworks.com/consultants/17116/show_picture?style=profile"
+  },
+  "projectPreferences": "",
+  "longTermGoal": "Front-end expert, from how a web app looks to the backend of it, with every piece of detail (like deploying, caching, scaling).",
+  "homeOffice": {
+    "name": "Xi'an"
+  },
+  "workingOffice": {
+    "name": "Xi'an"
+  },
+  "gender": "Male",
+  "preferredName": "Juntao Qiu",
+  "loginName": "jtqiu",
+  "employeeId": "14323",
+  "hireDate": "2012-03-26",
+  "totalExperience": 7.26,
+  "twExperience": 3.46,
+  "assignable": true
+}
