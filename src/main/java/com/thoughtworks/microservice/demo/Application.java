@@ -19,12 +19,22 @@ public class Application {
     }
 
     @Bean
-    public Docket api() {
+    public Docket staffsApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .groupName("staffs")
                 .apiInfo(apiInfo())
                 .select()
                 .paths(regex("/staffs.*"))
+                .build();
+    }
+
+    @Bean
+    public Docket skillsApi() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("skills")
+                .apiInfo(apiInfo())
+                .select()
+                .paths(regex("/skills.*"))
                 .build();
     }
 
