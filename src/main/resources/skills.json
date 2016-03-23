@@ -1,5 +1,5 @@
 {
-  "_id" : ObjectId("55efd19123588e5686f054d2"),
+  "_id" : "55efd19123588e5686f054d2",
   "skills" : [
     {
       "name" : "AWS",
