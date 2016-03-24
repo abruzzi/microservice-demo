@@ -1,6 +1,7 @@
 package com.thoughtworks.microservice.demo.models;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="staff")
@@ -29,6 +30,17 @@ public class Staff {
     private Double totalExperience;
     private Double twExperience;
     private boolean assignable;
+
+    public StaffSkill getStaffSkills() {
+        return staffSkills;
+    }
+
+    public void setStaffSkills(StaffSkill staffSkills) {
+        this.staffSkills = staffSkills;
+    }
+
+    @DBRef
+    private StaffSkill staffSkills;
 
     public String getId() {
         return id;
