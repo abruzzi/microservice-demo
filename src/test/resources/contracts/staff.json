@@ -5,11 +5,7 @@
       "uri": "/staffs"
     },
     "response": {
-      "json": [
-        {
-
-        }
-      ]
+      "json": []
     }
   }
 ]
