@@ -1,0 +1,15 @@
+[
+  {
+    "description": "should_response_staff_info",
+    "request": {
+      "uri": "/staffs"
+    },
+    "response": {
+      "json": [
+        {
+
+        }
+      ]
+    }
+  }
+]
