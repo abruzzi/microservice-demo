@@ -10,17 +10,18 @@
 </head>
 <body>
     <script type="template" id="staff-template">
-        <% _.forEach(staffs, function(staff) { %><li><%= staff.preferredName %></li><% }); %>
+        <% _.forEach(staffs, function(staff) { %><li><div class="staff"><%= staff.preferredName %></div></li><% }); %>
     </script>
 
-    <div id="controls">
-        <input type="text" id="names">
-        <input type="button" id="search" value="search">
-    </div>
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="names" placeholder="Type loginId. e.g. jtqiu,xczhang">
+        </div>
 
-    <div>
-        <ol id="staffs">
-        </ol>
+        <div>
+            <ol id="staffs">
+            </ol>
+        </div>
     </div>
 
     <script src="scripts/jquery/dist/jquery.min.js"></script>

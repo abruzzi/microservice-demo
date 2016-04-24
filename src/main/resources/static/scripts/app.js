@@ -1,7 +1,17 @@
 $(function() {
     var compiled = _.template($("#staff-template").text());
-    $("#search").on('click', function() {
-        var names = $("#names").val();
+
+    var names = $("#names");
+
+    names.keypress(function(event){
+        if(event.keyCode == 13) {
+            var item = $(this).val();
+            fetchAndRender(item);
+            $(this).val("").focus();
+        }
+    });
+
+    function fetchAndRender(names) {
         $.get("/staffs/ugly?names="+names).done(function(staffs) {
             var filtered = staffs.filter(function(staff) {
                 return staff != null;
@@ -12,6 +22,5 @@ $(function() {
         }).fail(function(error) {
             console.log(error);
         });
-    });
-
+    }
 });
