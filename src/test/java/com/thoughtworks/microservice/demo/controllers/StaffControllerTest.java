@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.boot.test.WebIntegrationTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.nio.file.Paths;
@@ -19,6 +20,7 @@ import java.nio.file.Paths;
 @SpringApplicationConfiguration(classes = Application.class)
 @WebIntegrationTest("server.port:0")
 @ConfigurationProperties(value = "application.properties")
+@ActiveProfiles("testing")
 public class StaffControllerTest {
     private static final ContractContainer contractContainer = new ContractContainer(Paths.get("src/test/resources/contracts/staff.json"));
 
