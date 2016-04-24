@@ -2,3 +2,5 @@
 build/
 microservice-demo.*
 out/
+src/main/resources/static/scripts/jquery
+src/main/resources/static/scripts/lodash

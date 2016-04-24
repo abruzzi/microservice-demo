@@ -6,6 +6,7 @@ jigsaw:
     - java
     - -Dserver.port=9527
     - -Dspring.data.mongodb.uri=mongodb://mongodb/thoughtworks
+    - -Dspring.profiles.active=production
     - -jar
     - /app.jar
   links:
